@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
         localizedTitle: 'Notifications',
         icon: 'notification',
       ),
-     
+
       const ShortcutItem(
           type: 'Share',
           localizedTitle: 'Share',

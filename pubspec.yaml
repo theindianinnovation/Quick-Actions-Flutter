@@ -32,6 +32,7 @@ dependencies:
 
   quick_actions: ^0.4.0+8
 
+  liquid_swipe: ^1.5.0
 
 dev_dependencies:
   flutter_test:
@@ -64,12 +65,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+  fonts:
+    - family: Billy
+      fonts:
+        - asset: assets/font.ttf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
